@@ -27,3 +27,24 @@ Project ini merupakan aplikasi berbasis **LLM + RAG (Retrieval-Augmented Generat
 ├── .env                # Environment variables (di-ignore git)
 ├── .gitignore
 └── README.md
+---
+## How to Use
+### Clone the Project
+```bash
+git clone https://github.com/nasgormaniac/chatbot-langchain.git
+cd chatbot-langchain
+```
+### Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Program
+```bash
+python ingest_db.py
+```
+Lalu baru jalankan:
+```bash
+python chatbot.py
+```
+Anda bisa menambahkan file pdf ke folder documents sebagai bahan untuk RAG
