@@ -1,4 +1,4 @@
-# 📄 Project Name
+# 📄 Chatbot LangChain
 
 ## 📌 Deskripsi Project
 
@@ -21,7 +21,7 @@ Project ini merupakan aplikasi berbasis **LLM + RAG (Retrieval-Augmented Generat
 ```text
 .
 ├── chroma_db/          # Vector store (di-ignore git)
-├── data/               # Dokumen sumber (PDF, txt, dll)
+├── documents/          # Dokumen sumber (PDF, txt, dll)
 ├── app.py              # Entry point aplikasi
 ├── requirements.txt
 ├── .env                # Environment variables (di-ignore git)
