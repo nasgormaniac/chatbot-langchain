@@ -17,23 +17,14 @@ Project ini merupakan aplikasi berbasis **LLM + RAG (Retrieval-Augmented Generat
 
 ---
 
-## 📁 Struktur Folder
-```text
-.
-├── chroma_db/          # Vector store (di-ignore git)
-├── documents/          # Dokumen sumber (PDF, txt, dll)
-├── app.py              # Entry point aplikasi
-├── requirements.txt
-├── .env                # Environment variables (di-ignore git)
-├── .gitignore
-└── README.md
----
 ## How to Use
 ### Clone the Project
+
 ```bash
 git clone https://github.com/nasgormaniac/chatbot-langchain.git
 cd chatbot-langchain
 ```
+
 ### Install Requirements
 ```bash
 pip install -r requirements.txt
@@ -48,3 +39,17 @@ Lalu baru jalankan:
 python chatbot.py
 ```
 Anda bisa menambahkan file pdf ke folder documents sebagai bahan untuk RAG
+
+---
+
+## 📁 Struktur Folder
+```text
+.
+├── chroma_db/          # Vector store
+├── documents/          # Dokumen sumber (PDF, txt, dll)
+├── ingest_db.py        # Ingest data ke dalam DB
+├── chatbot.py          # Aplikasi chatbot
+├── requirements.txt
+├── .env                # Environment variables
+├── .gitignore
+└── README.md
